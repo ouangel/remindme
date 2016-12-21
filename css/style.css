@@ -1,0 +1,917 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+}
+
+.clearfix::after,
+.main::after {
+  content: "";
+  clear: both;
+  display: block;
+}
+
+body{
+	margin: 0;
+	padding: 0;
+	font-family: 'Lato', sans-serif;
+	background-image: url("../img/background.jpg");
+	width: 100%;
+	/*height: 100%;*/
+}
+
+#background {
+	background-color: #f15c5b;
+	width: 100%;
+	height: 100%;
+	/*z-index: -1;*/
+	/*position: absolute;
+	top: 0;
+	left: 0;
+*/}
+
+/*#down {
+	background-color: #e6e7e8;
+	width: 100%;
+	height: 12%;*/
+	/*position: relative;*/
+/*}*/
+
+/*******************************************/
+/*******************************************/
+/*******************************************/
+.main-section {
+	/*background-color: #FFD4D4;*/
+	width: 70%;
+	margin: 0 auto;
+}
+
+.wrapper {
+	width: 100%;
+	/*z-index: 1;*/
+}
+
+.main-section #header-sect {
+	padding-top: 5%;
+	margin-bottom: 5%;
+}
+
+.main-section .header-section {
+	width: 40%;
+	margin: 5% auto 7% auto;
+}
+
+/*.main-section .header {
+	width: 50%;
+	margin: 0 auto;
+}*/
+
+.main-section .header .logo {
+	float: left;
+	margin-right: 2%;
+	/*width: 20%;*/
+	display: none;
+}
+
+.main-section .header .logo img {
+	width: 50px;
+}
+
+.main-section .title {
+	width: 100%;
+	float: left;
+	text-align: center;
+}
+
+.main-section .title a {
+	color: #fff;
+	font-size: 35px;
+	text-decoration: none;
+	font-weight: bold;
+	letter-spacing: 1px;
+}
+
+/*login & signup header*/
+.main-section #head {
+	width: 40%;
+	text-align: center;
+}
+
+.main-section .head-title a {
+	color: #ff5858;
+	font-size: 30px;
+	text-decoration: none;
+}
+
+
+
+
+/*******************************************/
+/***************** main page ***************/
+/*******************************************/
+.banner{
+	float: left;
+	width: 55%;
+	margin-top: 8%;
+}
+
+.banner .big-header {
+	margin-bottom: 10%;
+}
+
+.banner .big-header h1, 
+.banner .big-header p {
+	color: #fff;
+}
+
+.banner .big-header h1 {
+	font-weight: 500;
+	margin-bottom: 10%;
+	text-align: center;
+	font-size: 30px;
+	letter-spacing: 1px;
+}
+
+.banner .big-header h3 {
+	color: #fff;
+	font-weight: 500;
+	letter-spacing: 1px;
+}
+
+.banner .big-header p {
+	/*font-weight: 300;*/
+	font-size: 18px;
+	line-height: 30px;
+	font-weight: 300;
+	/*letter-spacing: 1px;*/
+}
+
+.banner .big-header img {
+	width: 25px;
+	height: 25px;
+	float: left;
+	margin-right: 2%;
+	/*margin-bottom: 5%;*/
+	display: none;
+}
+
+.banner .first_para,
+.banner .second_para {
+	margin-bottom: 4%;
+}
+
+.linkBtn {
+	text-align: center;
+}
+
+.linkBtn .loginBtn,
+.linkBtn .signupBtn {
+	/*border: 1px solid;*/
+	border-radius: 5px;
+	width: 200px;
+	height: 45px;
+	vertical-align: middle;
+	text-align: center;
+	display: inline-block;
+}
+
+.linkBtn .loginBtn a,
+.linkBtn .signupBtn a {
+	text-decoration: none;
+	font-size: 20px;
+	line-height: 45px;
+}
+
+.linkBtn .loginBtn {
+	background-color: #fff;
+	margin-right: 5%;
+}
+
+.linkBtn .loginBtn a {
+	color: #ff5858;
+}
+
+.linkBtn .signupBtn {
+	background-color: #ff5858;
+	border: 2px solid #fff;
+}
+
+.linkBtn .signupBtn a {
+	color: #fff;
+}
+
+.image {
+	width: 40%;
+	text-align: right;
+	float: right;
+	margin-top: 5%;
+	/*display: none;*/
+}
+
+.image img {
+	/*width: 80%;*/
+	width: 400px;
+}
+
+
+
+
+/*******************************************/
+/*************** sign in page **************/
+/*******************************************/
+.body-section {
+	width: 40%;
+	margin: 0 auto;
+}
+
+.main-section .body-section .login,
+.main-section .body-section .signup  {
+	width: 100%;
+	/*margin: 0 auto;*/
+	/*float: left;*/
+}
+
+.main-section #login-form,
+.main-section #signup-form {
+	float: right;
+	text-align: center;
+	background-color: #fff;
+	border-radius: 5px;
+	/*border: 4px dashed #fff;*/
+	width: 100%;
+	/*box-shadow: 0px 0px 30px 2px #d4d4d4;*/
+}
+
+.main-section .body-section .login .form-title h1,
+.main-section .body-section .signup .form-title h1 {
+	color: #ff5858;
+	margin-top: 9.1%;
+	font-size: 25px;
+}
+
+.main-section .body-section .login .field,
+.main-section .body-section .signup .field
+  {
+	display: block;
+	margin-top: 9.1%;
+}
+
+.main-section .body-section .login input,
+.main-section .body-section .signup input {
+	width: 220px;
+	height: 30px;
+	border-radius: 5px;
+	border-style: none;
+	border: 2px solid #FFD4D4;
+}
+
+.main-section .body-section #login-form label,
+.main-section .body-section #signup-form label {
+	width: 90px;
+	display: inline-block;
+	margin-right: 2%;
+	text-align: left;
+}
+
+.main-section .login #login-submit,
+.main-section .signup #signup-submit {
+	width: 120px;
+	height: 35px;
+	font-size: 18px;
+	background-color: #ff5858;
+	color: #fff;
+	border-radius: 5px;
+	border-style: none;
+	margin: 9.1% 0 9.1% 0;
+}
+
+.main-section .login #login-submit:hover,
+.main-section .signup #signup-submit:hover {
+	opacity: 0.5;
+	cursor: pointer;
+}
+
+.main-section input[type=text],
+.main-section input[type=password] {
+	padding-left: 10px;
+}
+
+.main-section .body-section .signup-link {
+	width: 80%;
+	margin: 5% auto 0 auto;
+	text-align: center;
+
+}
+
+.main-section .body-section .signup-link a {
+	font-size: 17px;
+	text-align: center;
+	color: #ff5858;
+	text-decoration: none;
+	/*display: none;*/
+}
+
+/*.main-section #new-user #close-icon {
+	float: right;
+}*/
+
+/*new user zoom animation*/
+/*#new-user {
+	-webkit-animation: animatezoom 0.6s;
+	animation: animatezoom 0.6s;
+}
+
+@-webkit-keyframes animatezoom {
+	from {-webkit-transform: scale(0);}
+	to {-webkit-transform: scale(1);}
+}
+
+@keyframes animatezoom {
+	from {transform: scale(0);}
+	to {transform: scale(1);}
+}*/
+
+
+
+
+/*******************************************/
+/**************** create page **************/
+/*******************************************/
+.create {
+	background-color: #fff;
+	border-radius: 5px;
+	width: 80%;
+	margin: 0 auto;
+	/*box-shadow: 0px 0px 30px 2px #d4d4d4;*/
+}
+
+.create .create-title {
+	padding-top: 35px;
+	padding-bottom: 50px;
+}
+
+.create .create-title h1 {
+	color: #ff5858;
+	text-align: center;
+}
+
+.create-body {
+	width: 100%;
+}
+
+.create-body .information {
+	margin-bottom: 50px;
+}
+
+#currentDate,
+.menu-button {
+	float: left;
+}
+
+.menu-button {
+	float: right;
+}
+
+.menu-button .logout,
+.menu-button .view {
+	display: inline-block;
+}
+
+.menu-button .logout a,
+.menu-button .view a {
+	text-decoration: none;
+	color: #504f4f;
+
+}
+
+.main-section .body-section .user-form {
+	width: 100%;
+}
+
+.main-section .body-section .user-form .field {
+	display: block;
+	text-align: center;
+	margin-top: 9.1%; 
+}
+
+.user-form input {
+	width: 60%;
+	height: 5%;
+	border-radius: 5px;
+	border-style: none;
+	border: 2px solid #FFD4D4;
+}
+
+.user-form textarea {
+	width: 60%;
+	/*height: 5%;*/
+	border-radius: 5px;
+	border-style: none;
+	border: 2px solid #FFD4D4;
+	vertical-align: top;
+}
+
+.user-form label {
+	width: 90px;
+	display: inline-block;
+	margin-right: 2%;
+	text-align: left;
+}
+
+.user-form #submit-btn {
+	width: 30%;
+	height: 6%;
+	font-size: 18px;
+	background-color: #ff5858;
+	color: #fff;
+	border-radius: 5px;
+	border-style: none;
+	margin: 9.1% 0 9.1% 0;
+}
+
+
+
+
+
+/*******************************************/
+/**************** view page ****************/
+/*******************************************/
+.main-section #create-main {
+	width: 80%;
+	margin: 0 auto;
+}
+
+.main-section .nav {
+	margin-top: 5%;
+}
+
+.main-section .nav ul {
+	text-align: right;
+}
+
+.main-section .nav ul li {
+	list-style: none;
+}
+
+.main-section .nav ul li a {
+	text-decoration: none;
+	color: #504f4f;
+}
+
+.main-section .nav ul li a:hover {
+	opacity: 0.5;
+}
+
+.main-section .add-form #create-form .field,
+.main-section .add-form #create-form #submit-btn {
+	float: left;
+}
+
+.main-section .add-form {
+	margin-top: 2%;
+	margin-bottom: 2%;
+}	
+
+.main-section .add-form #create-form #remindDate {
+	width: 10%;
+	height: 30px;
+}
+
+.main-section .add-form #create-form #datepicker {
+	width: 100%;
+    height: 100%;
+    font-size: 17px;
+    border-radius: 5px 0 0 5px;
+    border-style: none;
+    border-right: 1px solid #504f4f;
+}
+
+.main-section .add-form #create-form #task {
+	width: 90%;
+	height: 30px;
+}
+
+.main-section .add-form #create-form #create-task {
+	width: 100%;
+    height: 100%;
+    font-size: 17px;
+    border-radius: 0 5px 5px 0;
+    border-style: none;
+}
+
+.main-section .add-form #create-form #submit-btn:hover {
+	background-color: #d8d8d8;
+}
+
+.main-section .view-content ul {
+	text-decoration: none;
+	padding: 0;
+}
+
+.main-section .view-content ul li {
+	list-style: none;
+	float: left;
+	font-size: 17px;
+	color: #504f4f;
+	height: 30px;
+	background-color: #fff;
+	width: 100%;
+	margin-bottom: 0.5%;
+	border: 2px solid #fff;
+	border-radius: 5px;
+	font-weight: 500;
+	/*line-height: 30px;*/
+}
+
+.main-section .view-content .remindDate,
+.main-section .view-content .task,
+.main-section .view-content .delete {
+	float: left;
+}
+
+.main-section .view-content .remindDate,
+.main-section .view-content .task {
+	padding-left: 10px;
+	line-height: 1.5;
+}
+
+.main-section .view-content .remindDate {
+	width: 10%;
+	border-right: 1px solid #504f4f;
+}
+
+.main-section .view-content .task {
+	width: 87%;
+	cursor: move;
+}
+
+.main-section .view-content .delete {
+	width: 3%;
+}
+
+.main-section .view-content .delete img {
+	width: 20px;
+}
+
+.main-section .view-content .delete:hover {
+	opacity: 0.5;
+}
+
+
+
+
+
+/****************************
+/******** media query ********/
+/*****************************/
+@media only screen and (max-width: 1200px) {
+	/*main page*/
+	.body-section {
+		width: 60%;
+	}
+
+	.linkBtn .loginBtn,
+	.linkBtn .signupBtn {
+		width: 180px;
+	}
+
+	/*view page*/
+	#main-section {
+		width: 80%;
+	}
+
+	.main-section #create-main {
+		width: 100%;
+	}
+
+	.image img {
+		/*width: 80%;*/
+		width: 350px;
+	}
+}
+
+@media only screen and (max-width: 992px) {
+	/*main page*/
+	.main-section {
+		width: 90%;
+	}
+
+	.banner {
+		width: 50%;
+	}
+
+	.image {
+		width: 50%;
+	}
+
+	.linkBtn .loginBtn,
+	.linkBtn .signupBtn {
+		width: 150px;
+	}
+
+	.linkBtn .loginBtn a,
+	.linkBtn .signupBtn a {
+		font-size: 16px;
+	} 
+
+	/*view page*/
+	#main-section {
+		width: 85%;
+	}
+
+	.main-section #create-main {
+		width: 100%;
+	}
+}
+
+@media only screen and (max-width: 768px) {
+	.main-section .head-title a {
+		font-size: 22px;
+	}
+
+	/*main page*/
+	#background {
+		height: auto;
+	}
+
+	.main-section .header-section .header {
+		margin: 5% auto 20% auto;
+	}
+
+	.main-section .header-section .header .logo a img {
+		width: 30px;
+	}
+
+	.main-section .header-section .header .title a {
+		font-size: 18px
+	}
+
+	.banner {
+		width: 100%;
+		padding: 0;
+	}
+
+	.banner .big-header {
+		margin-bottom: 20%;
+	}
+
+	.banner .big-header h1 {
+		font-size: 25px;
+	}
+
+	.banner .big-header p {
+		font-size: 18px;
+	}
+
+	.linkBtn .loginBtn,
+	.linkBtn .signupBtn {
+		width: 180px;
+	}
+
+	.linkBtn .loginBtn a,
+	.linkBtn .signupBtn a {
+		font-size: 16px;
+	}
+
+	.linkBtn .signupBtn {
+		margin: 0 auto;
+	}
+	
+	/*sign in & sign up page*/
+	.main-section {
+		width: 70%;
+	}
+
+	.main-section .header-section {
+		width: 100%;
+	}
+
+	/*.main-section .header-section .header{
+		width: 30%;
+	}*/
+
+	/*.main-section .header-section .header .logo img {
+		width: 45px;
+	}*/
+
+	.main-section .header-section .header .title a {
+		font-size: 25px;
+	}
+
+	.main-section .body-section {
+		width: 80%;
+	}
+
+	.main-section .body-section #login-form .form-title h1,
+	.main-section .body-section #signup-form .form-title h1 {
+		font-size: 27px;
+	}
+
+	.main-section .body-section #login-form label,
+	.main-section .body-section #signup-form label {
+		/*font-size: 18px;*/
+	}
+
+	.main-section .body-section #login-form input,
+	.main-section .body-section #signup-form input {
+		width: 220px
+	}
+
+	.main-section .body-section #login-form #login-submit,
+	.main-section .body-section #signup-form #signup-submit {
+		font-size: 16px;
+		width: 25%;
+	}
+
+	.image {
+		/*display: none;*/
+		/*float: none;*/
+		width: 100%;
+		margin-top: 15%;
+		text-align: center;
+	}
+
+	/*view page*/
+	#main-section {
+		width: 90%;
+	}
+
+	.main-section #create-main {
+		width: 100%;
+	}
+
+	/*.main-section .add-form #create-form #create-remindDate,
+	.main-section .add-form #create-form #create-task,
+	.main-section .view-content ul li {
+		font-size: 15px;
+	}*/
+	.main-section .add-form #create-form #remindDate {
+		width: 16%;
+	} 
+
+	.main-section .add-form #create-form #task {
+		width: 84%;
+	}
+
+	.main-section .view-content .remindDate {
+		width: 16%;
+	}
+
+	.main-section .view-content .task {
+		width: 80%;
+	}
+
+	.main-section .nav ul li a,
+	.main-section .add-form #create-form #datepicker,
+	.main-section .add-form #create-form #create-task,
+	.main-section .view-content ul li {
+		font-size: 16px;
+	}
+
+	.main-section .view-content .delete img {
+		width: 15px;
+	}
+}
+
+@media only screen and (max-width: 600px) {
+	.main-section .body-section {
+		width: 100%;
+	}
+
+	#background {
+		height: auto;
+	}
+}
+
+@media only screen and (max-width: 480px) {
+	.main-section .head-title a {
+		font-size: 18px;
+	}
+
+	/*main page*/
+	#background {
+		height: auto;
+	}
+
+	.main-section .header-section .header {
+		margin: 5% auto 20% auto;
+	}
+
+	.main-section .header-section .header .logo a img {
+		width: 30px;
+	}
+
+	.main-section .header-section .header .title a {
+		font-size: 18px
+	}
+
+	.main-section #header-sect .title a {
+		font-size: 28px;
+	}
+
+	.banner {
+		width: 100%;
+		padding: 0;
+	}
+
+	.banner .big-header {
+		margin-bottom: 20%;
+	}
+
+	.banner .big-header h1 {
+		font-size: 20px;
+	}
+
+	.banner .big-header p {
+		font-size: 15px;
+	}
+
+	.linkBtn .loginBtn,
+	.linkBtn .signupBtn {
+		display: block;
+	}
+
+	.linkBtn .loginBtn {
+		margin: 0 auto 5% auto;
+	}
+
+	.linkBtn .signupBtn {
+		margin: 0 auto 5% auto;
+	}
+
+	.image img{
+		width: 100%;
+	}
+
+
+
+
+	/*sign in & sign up page*/
+	.main-section {
+		width: 90%;
+	}
+
+	.main-section .header-section {
+		width: 100%;
+	}
+
+	/*.main-section .header-section .header{
+		width: 50%;
+	}*/
+
+	/*.main-section .header-section .header .logo img {
+		width: 35px;
+	}
+
+	.main-section .header-section .header .title a {
+		font-size: 20px;
+	}*/
+
+	.main-section .body-section {
+		width: 100%;
+	}
+
+	.main-section .body-section #login-form .form-title h1,
+	.main-section .body-section #signup-form .form-title h1 {
+		font-size: 22px;
+	}
+
+	.main-section .body-section #login-form label,
+	.main-section .body-section #signup-form label {
+		font-size: 16px;
+	}
+
+	.main-section .body-section #login-form input,
+	.main-section .body-section #signup-form input {
+		width: 180px;
+	}
+
+	.main-section .body-section #login-form #login-submit,
+	.main-section .body-section #signup-form #signup-submit {
+		font-size: 14px;
+		width: 20%;
+	}
+
+	/*view page*/
+	.main-section .nav ul li a,
+	.main-section .add-form #create-form #datepicker,
+	.main-section .add-form #create-form #create-task,
+	.main-section .view-content ul li {
+		font-size: 14px;
+	}
+
+	.main-section .view-content .delete img {
+		width: 15px;
+	}
+
+	.main-section .view-content .remindDate,
+	.main-section .view-content .task {
+		padding-left: 10px;
+		line-height: 1.8;
+	}
+	
+}
+
+
+
+
+
