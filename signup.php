@@ -69,36 +69,13 @@ if (isset($_POST["signup-submit"])) {
 
 					<div class="header-section" id="head">
 						<div class="header clearfix">
-							<!-- <div class="logo">
-								<a href="index.php">
-									<img src="img/logo.png" alt="logo">
-								</a>
-							</div> -->
 							<div class="head-title">
 								<a href="index.php">Remind Me</a>
 							</div>
 						</div> <!-- end header -->
-
-						<!-- <div class="header-description">
-							<p>Welcome to Remind Me! </p>
-						</div> -->
 					</div> <!-- end header-section -->
 
 					<div class="body-section clearfix">
-						<!-- <div class="description">
-							<div class="description-header">
-								<div class="description-title">
-									<h1>Sign Up for A New Account</h1>
-								</div>
-								<div class="description-body">
-									<p>An reminder application that designs for teams to share and use.</p>
-									<p>An reminder application that designs for teams to share and use.</p>
-									<p>An reminder application that designs for teams to share and use.</p>
-									<p>An reminder application that designs for teams to share and use.</p>
-								</div>
-							</div>
-						</div> --> <!-- end description -->
-
 						<div class="signup">
 							<form method="POST" action="signup.php" id="signup-form">
 								<div class="form-title">

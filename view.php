@@ -1,6 +1,6 @@
 <?php
-error_reporting(E_ALL);
-ini_set("display_errors", 1);
+// error_reporting(E_ALL);
+// ini_set("display_errors", 1);
 
 include "include/configure.php";
 include "include/database.php";
@@ -28,15 +28,8 @@ include "include/database.php";
 		<div class="wrapper">
 			<div class="main" id="create-main">
 
-				<!-- <div class="view-title">
-					<h1>To Do List</h1>
-				</div> -->
-
 				<div class="nav clearfix">
 					<ul class="clearfix">
-						<!-- <li class="first">
-							<a href="create.php">Add new tasks</a>
-						</li> -->
 						<li>
 							<a href="logout.php">Sign Out</a>
 						</li>
@@ -46,12 +39,10 @@ include "include/database.php";
 				<div class="add-form clearfix">
 					<form class="clearfix" method="POST" action="create.php" id="create-form">
 						<div class="field" id="remindDate">
-							<!-- <label for="remindDate">Due Date</label> -->
 							<input type="text" name="remindDate" id="datepicker" placeholder="Due" required>
 						</div>
 
 						<div class="field" id="task">
-							<!-- <label for="task">Task</label> -->
 							<input type="text" name="task" id="create-task" placeholder="+ Add To Do List" required>				
 						</div>
 

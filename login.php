@@ -1,6 +1,6 @@
 <?php
-error_reporting(E_ALL);
-ini_set("display_errors", 1);
+// error_reporting(E_ALL);
+// ini_set("display_errors", 1);
 
 
 include "include/configure.php";
@@ -73,22 +73,6 @@ if (isset($_SESSION['loggedin'])) {
 					</div> <!-- end header-section -->
 
 					<div class="body-section clearfix">
-						<!-- <div class="description">
-							<div class="description-header">
-								<div class="description-title">
-									<h1>The application makes your life easier</h1>
-								</div>
-								<div class="description-body">
-									<p>An reminder application that designs for teams to share and use.</p>
-									<p>An reminder application that designs for teams to share and use.</p>
-									<p>An reminder application that designs for teams to share and use.</p>
-									<p>An reminder application that designs for teams to share and use.</p>
-								</div>
-							</div>
-							<div class="signup-link">
-								<a href="signup.php">Sign up a new account</a>
-							</div>
-						</div> --> <!-- end description -->
 
 						<div class="login clearfix">
 							<form method="POST" action="login.php" id="login-form">
