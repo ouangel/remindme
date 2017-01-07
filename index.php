@@ -44,7 +44,7 @@
 							<a href="login.php">Sign In</a>
 						</div>
 						<div class="signupBtn">
-							<a href="signup.php">Sing up</a>
+							<a href="signup.php">Sign up</a>
 						</div>
 					</div> <!-- end link button -->
 				</div> <!-- end banner -->
